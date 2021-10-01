@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FB3A4B;
+    padding-top: 1.8%;
+    padding-bottom: 1.8%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+#big-group{
+    background-color: #f7f7f7;
+    border-radius: 15px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+form{
+    padding-left: 4em;
+}
+
+#title{
+    color: #4A4A4A;
+    font-family: 'Trebuchet MS';
+    margin-left: 30%;
+    margin-bottom: 5%;
+    padding-top: 4%;
+}
+
+fieldset{
+    border: 0;
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+}
+
+.group{
+    background-color: #f7f7f7;
+}
+
+.campo, #check{
+    color: #3d3d3d;
+    margin-bottom: 1em
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    display: block;
+}
+
+fieldset.group .campo{
+    float: left;
+    margin-right: 1em;
+}
+
+fieldset label, .campo input[type="radio"]{
+    margin-right: 5px;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo input[type="number"], .campo select, .campo textarea{
+    padding: 0.2em;
+    border: 1px solid #ff848e;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+}
+
+.campo select option{
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background-color: #fcc4c8;
+}
+
+#botao{
+    background-color: #FB3A4B;
+    border: 0;
+    height: 30px;
+    width: 110px;
+    font-weight: bold;
+    padding: 0.2em 0.6em;
+    margin-bottom: 10px;
+    margin-left: 32%;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#botao:hover{
+    background-color: #f7f7f7;
+    color: #530007;
+    font-weight: bold;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+textarea{
+    resize: none;
+}
